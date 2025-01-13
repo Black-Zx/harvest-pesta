@@ -1,0 +1,1334 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Carlsberg Sans';
+    src: url('../CarlsbergSans-Light.eot');
+    src: url('../fonts/CarlsbergSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CarlsbergSans-Light.woff2') format('woff2'),
+        url('../fonts/CarlsbergSans-Light.woff') format('woff'),
+        url('../fonts/CarlsbergSans-Light.ttf') format('truetype'),
+        url('../fonts/CarlsbergSans-Light.svg#CarlsbergSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Carlsberg Sans';
+    src: url('../fonts/CarlsbergSans-Black.eot');
+    src: url('../fonts/CarlsbergSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CarlsbergSans-Black.woff2') format('woff2'),
+        url('../fonts/CarlsbergSans-Black.woff') format('woff'),
+        url('../fonts/CarlsbergSans-Black.ttf') format('truetype'),
+        url('../fonts/CarlsbergSans-Black.svg#CarlsbergSans-Black') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NyCarlsbergDisplay-Light';
+    src: url('../NyCarlsbergDisplay-Light.eot');
+    src: url('../fonts/NyCarlsbergDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NyCarlsbergDisplay-Light.woff2') format('woff2'),
+        url('../fonts/NyCarlsbergDisplay-Light.woff') format('woff'),
+        url('../fonts/NyCarlsbergDisplay-Light.ttf') format('truetype'),
+        url('../fonts/NyCarlsbergDisplay-Light.svg#NyCarlsbergDisplay-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NyCarlsbergDisplay-Regular';
+    src: url('../fonts/NyCarlsbergDisplay-Regular.eot');
+    src: url('../fonts/NyCarlsbergDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NyCarlsbergDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/NyCarlsbergDisplay-Regular.woff') format('woff'),
+        url('../fonts/NyCarlsbergDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/NyCarlsbergDisplay-Regular.svg#NyCarlsbergDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NyCarlsbergDisplay-Bold';
+    src: url('../fonts/NyCarlsbergDisplay-Bold.eot');
+    src: url('../fonts/NyCarlsbergDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NyCarlsbergDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/NyCarlsbergDisplay-Bold.woff') format('woff'),
+        url('../fonts/NyCarlsbergDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/NyCarlsbergDisplay-Bold.svg#NyCarlsbergDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+	font-family: 'NyCarlsbergDisplay-Bold', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; 
+	color: #006937;
+	overflow-x:hidden;
+	 /*background-size: 1920px 772px;*/
+}
+
+.bg-form{
+	background: url(/img/bg-form.jpg) center bottom no-repeat;
+	background-size: 100%;
+}
+
+.bg-thankyou{
+	background: url(/img/bg-thankyou.jpg) bottom center no-repeat;
+	background-size: cover;
+}
+
+.rafflesia-group{
+	position: relative;
+}
+
+.rafflesia{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	pointer-events: none;
+}
+.logo{
+	z-index: 100;
+	display: block;
+}
+/*.blue-background{
+	background:url(/img/thank-you_background.png) center top no-repeat;
+	background-size: cover;
+}*/
+
+.font-nycarlsberg-b{
+    font-family: 'NyCarlsbergDisplay-Bold';
+}
+
+/*Padding*/
+.nm{
+	margin-left: 0;
+	margin-right: 0;
+}
+.pad-top10{
+	padding-top: 10px;
+}
+
+.pad-top20{
+	padding-top: 20px;
+}
+
+.pad-top30{
+	padding-top: 30px;
+}
+
+.pad-top40{
+	padding-top: 40px;
+}
+
+.pad-top60{
+	padding-top: 60px;
+}
+
+.pad-top120{
+	padding-top: 120px;
+}
+
+.pad-bot10{
+	padding-bottom: 10px;
+}
+
+.pad-bot20{
+	padding-bottom: 20px;
+}
+
+.pad-bot30{
+	padding-bottom: 30px;
+}
+
+.pad-bot40{
+	padding-bottom: 40px;
+}
+
+.pad-bot60{
+	padding-bottom: 60px;
+}
+
+.mt-20{
+	margin-top: 20px;
+}
+
+.mt-30{
+	margin-top: 30px;
+}
+
+.mt-40{
+	margin-top: 40px;
+}
+
+.mb-0{
+	margin-bottom: 0;
+}
+
+.mt-neg20{
+	margin-top: -20px;
+}
+
+.mt-neg40{
+	margin-top: -40px;
+}
+
+.mt-neg200{
+	margin-top: -200px;
+}
+
+.mb-10{
+	margin-bottom: 10px;
+}
+
+.mb-20{
+	margin-bottom: 20px;
+}
+
+.mb-30{
+	margin-bottom: 30px;
+}
+
+.mb-40{
+	margin-bottom: 30px;
+}
+
+.mb-50{
+	margin-bottom: 50px;
+}
+
+.mb-80{
+	margin-bottom: 80px;
+}
+
+.mb-200{
+	margin-bottom: 200px;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.ml-0{
+	margin-left: 0;
+}
+
+.ml-8{
+	margin-left: 8px;
+}
+
+.ml-20{
+	margin-left: 20px;
+}
+
+.mr-5{
+	margin-right: 5px;
+}
+
+.mr-10{
+	margin-right: 10px;
+}
+
+.mr-20{
+	margin-right: 20px;
+}
+
+
+/*Age Verification*/
+.content-width{
+	/* width: 28%; */
+}
+
+.first-letter {
+	font-size: 25px;
+	color: #006937;
+	line-height: normal;
+	display: block;
+}
+
+.thank-you{
+	font-size: 50px;
+	color: #2a4b92;
+	line-height: 50px;
+	display: block;
+}
+
+.thankyou-element{
+    margin-top: -80px;
+    z-index: 100;
+    position: relative;
+}
+
+.darkblue-line{
+	border-color: #041E41;
+	opacity: 1;
+    border-top: 1px solid;
+    width: 40%;
+    margin: auto;
+}
+
+h1{
+	color: #006937;
+	font-size: 38px;
+	text-transform: uppercase;
+}
+
+.age-wrapper {
+	width: 576px;
+	max-width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.hornbill{
+    position: absolute;
+    right: 190px;
+    top: 240px;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.year-row{
+	border:3px solid #ffd23d;
+	padding: 10px;
+}
+
+.year-input{
+	width: calc(100%/4 - 9px);
+	margin: 0 3px;
+	border: 2px solid transparent;
+	height: 158px;
+	text-align: center;
+	outline: none;
+	/* margin-right: 3px; */
+	background-color: #ffd23d;
+	font-size: 30px;
+}
+
+.year-input:last-child{
+		margin-right: 0;
+}
+
+/*.year-input:active, .year-input:focus{	
+	border: 2px solid #1B3985;
+}*/
+
+.age-verify{
+	font-size: 18px;
+	color: #006937;
+	line-height: 1.2;
+	display: block;
+	font-family: 'NyCarlsbergDisplay-Bold';
+	font-weight: bold;
+}
+
+.termsncondition{
+	font-family: "Montserrat", sans-serif;
+	font-size:16px;
+	font-style:italic;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+/*form*/
+.form-label{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size:18px;
+}
+
+.form-control{
+	border: 2px solid transparent;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: 600;
+	/*box-shadow: -2px 6px 12px #d0cccc;*/
+	background-color: #eaeaea;
+	padding: 10px;
+	color:#006b35;
+}
+
+.qr-code{
+	box-shadow: -2px 6px 12px #d0cccc;
+}
+
+.form-select{
+	padding: 12px;	
+	background-color: #eaeaea;
+	border-radius: 10px;
+	border:none;
+	color: #006937;
+	font-family: "Montserrat", sans-serif;
+	font-style:italic;
+}
+
+.form-control:focus{
+	border: 2px solid #eaeaea;
+}
+
+.btn{
+	font-family: 'NyCarlsbergDisplay-Bold';
+	background-color: #006b35;
+	border-color: transparent;
+	border-radius: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 80px;
+    font-size: 20px;
+}
+
+.btn-secondary{
+	background-color: #ffd23d;
+	color: #006b35;
+}
+
+.btn:first-child:active{
+	background-color: #005e2f;
+}
+
+.btn:hover{
+	background-color: #005e2f;
+	color: #ffffff;
+	border-color:transparent;
+}
+
+.btn:disabled{
+	background-color: #113020;
+	border-color: transparent;
+	border-radius: inherit;
+}
+
+.pdpa{
+	color: #041E41;
+	text-decoration: underline;
+}
+
+
+p{
+	/* color: #ffffff; */
+	font-size: 14px;
+}
+
+.join-us{
+	font-family: "Montserrat", sans-serif;
+	font-style: italic;
+	font-size: 25px;
+	line-height: 22px;
+}
+
+.carls-harvest{
+	font-family: "Montserrat", sans-serif;
+	font-size: 25px;
+	line-height: normal;
+}
+
+.datenvenue{
+	font-family: 'NyCarlsbergDisplay-Bold';
+	font-size: 27px;
+}
+
+.register-text{
+	font-family: 'NyCarlsbergDisplay-Bold';
+	font-size: 40px;
+	line-height: normal;
+}
+
+.registration{
+	font-size:20px;
+	font-family: 'NyCarlsbergDisplay-Bold';
+}
+
+.name, .email, .number{
+	font-size:22px;
+	font-family: 'NyCarlsbergDisplay-Light';
+}
+
+.place, .date{
+	font-size:22px;
+	font-family: 'NyCarlsbergDisplay-Regular';
+}
+
+.screenshot{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 22px;
+}
+.time{
+	font-family: "Montserrat", sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.greenwave-left{
+	position: absolute;
+    right: 96%;
+}
+
+.greenwave-right{
+	position: absolute;
+    left: 88%;
+    z-index: 100;
+    top: 50%;
+    /* width: 20vw; */
+}
+
+
+
+.venue{
+	font-family: 'NyCarlsbergDisplay-Regular';
+	font-size: 24px;
+}
+
+.exciting-activities{
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight:500;
+}
+
+.green-border{
+	padding: 30px 0;
+	border:1px solid #006b35;
+	border-radius: 20px;
+}
+
+.form-border{
+	padding: 50px;
+	border:1px solid #006b35;
+	border-radius: 50px;
+	background-color:#ffffff;
+}
+
+.form-check-input{
+	background-color: #006b35;
+	color:#ffffff;
+}
+
+.form-check-input:checked{
+	background-color: #006b35;
+	border-color: #006b35;
+}
+sup{
+    font-size: 17px;
+    top: -.4em;
+}
+
+.activity{
+	font-family: 'NyCarlsbergDisplay-Bold';
+	font-size: 18px;
+	line-height: normal;
+}
+
+h1.main-title{
+	font-family: 'NyCarlsbergDisplay-Bold';
+	font-size: 40px;
+}
+
+h2.subtitle{
+	font-family: 'NyCarlsbergDisplay-Bold';
+	font-size: 30px;
+	text-transform: uppercase;
+}
+/*thank you*/
+.button-dark{
+	font-family: 'EB Garamond', serif;
+	background-darkcolor: #64a8ea;
+	border-color: transparent;
+	border-radius: inherit;
+	text-transform: uppercase;
+	color: #2a4b92;
+	border:1px solid #2a4b92;
+	padding: 10px 50px;
+	text-decoration: none;
+}
+
+.button-light{
+	background-color: #1B3985;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+.button-light:hover, .button-dark:hover{
+	color: #ffffff;
+} 
+
+.white{
+	color: #ffffff;
+}
+
+/*footer*/
+.footer {
+	color: #ffffff;
+	font-size: 14px;
+	/*overflow-y: hidden;*/
+	background-color: #006b35;
+}
+
+.celebrate-responsibly{
+	font-family: 'Carlsberg Sans', sans-serif;
+	font-size: 13px;
+}
+
+.celebrate-font{
+	font-size:16px;
+}
+
+.celebrate-button{
+	color:#2a4b92;
+	text-decoration: none;
+}
+
+.celebrate-button:hover{
+		color:#2a4b92;
+}
+
+.light-font{
+	font-weight: 300;
+}
+
+.celebrate-footer{
+	font-family: 'Carlsberg Sans', sans-serif;
+}
+
+.flower-left,
+.flower-right {
+	position: absolute;
+	pointer-events: none;
+	/*z-index: -1;*/
+	width: 25vw;
+	min-width: 170px;
+	z-index: 1;
+}
+
+.flower-left {
+	bottom: 20%;
+	left: 0;
+}
+
+.flower-right {
+	top: 30%;
+	right: 0;
+}
+
+.beer{
+	position: relative;
+}
+
+.beer img{
+	position: absolute;
+	bottom: -60px;
+    left: -116px;
+	z-index: -1;
+}
+
+.footer-width{
+	width:42%;
+}
+
+.follow-width{
+	/*width: 90%;*/
+}
+
+.social-media a{
+	display: inline-block;
+}
+
+.social-media a, .social-media p{
+	/*float: left;*/
+}
+
+
+/* interested page*/
+.welcome-bg{
+	background:url(/img/welcome-bg.jpg) no-repeat center top / 100% 100%;
+}
+.welcome-message{
+	font-size: 1rem;
+	color:#162343;
+	font-weight: 500;
+	font-family: 'Futura-Medium', sans-serif;
+}
+
+.blue-bg{
+	background-color: #1a41a1;
+}
+
+.enjoy-complimentary{
+	font-size: 1.2rem;
+	color:#ffffff;
+	font-weight: 500;
+	font-family: 'Futura-Medium', sans-serif;
+}
+
+.redeem-button{
+	background-color: #e94b42;
+	color: #ffffff;
+	font-family: 'EB Garamond', serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 8px 30px;
+	font-weight: 600;
+	display: inline-block;
+	font-size: 18px;
+}
+
+a.redeem-button:hover{
+	color: #ffffff;
+}
+
+.tnc{
+	margin-top: 5px;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.date-venue p{
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 500;
+	font-family: 'Futura-Medium', sans-serif;
+}
+
+.event-bg{
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(67,93,192,1) 100%);
+}
+
+.dark-blue{
+	color: #1a41a2;
+}
+
+.carlsberg{
+	font-size: 16px;
+	color:#006937;
+	font-weight: bold;
+	font-family: 'NyCarlsbergDisplay-Bold';
+}
+
+.workshop-title{
+	font-family: 'Futura-Heavy', sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #1a41a2;
+
+}
+
+.carousel-caption{
+	position: static;
+	right: auto; 
+    bottom: auto; 
+    left: auto; 
+    padding-top: 0; 
+    padding-bottom: 0;
+}
+
+.workshop-caption{
+	font-weight: 600;
+	font-size: 16px;
+	color: #000000;
+}
+
+.register-now{
+	background-color: #1a41a2;
+	color: #ffffff;
+	font-family: 'EB Garamond', serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 8px 30px;
+	font-weight: 600;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.register-now:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.event-flower-left,
+.event-flower-right {
+	position: absolute;
+	pointer-events: none;
+	/*z-index: -1;*/
+	width: 22vw;
+	min-width: 170px;
+	z-index: 1;
+}
+
+.event-flower-left {
+	top: 5%;
+	left: 0;
+}
+
+.event-flower-right {
+	top: 5%;
+	right: 0;
+}
+
+.blue-hour-flower-left,
+.blue-hour-flower-right {
+	position: absolute;
+	pointer-events: none;
+	/*z-index: -1;*/
+	width: 10vw;
+	min-width: 140px;
+	z-index: 1;
+}
+
+.blue-hour-flower-left {
+	bottom: 5%;
+	left: 0;
+}
+
+.blue-hour-flower-right {
+	top: 5%;
+	right: 0;
+}
+
+.blue-caption{
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 500;
+	font-family: 'Futura-Medium', sans-serif;
+}
+
+.blue-hour-img{
+	border: 8px solid #ffffff;
+	filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+}
+
+.bluehour-title{
+	font-family: 'Futura-Heavy', sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.bluehour-caption{
+	font-weight: 500;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 20px;
+	font-family: 'Futura-Medium', sans-serif;
+}
+
+.hashtag{
+	color: #1a41a2;
+	font-family: 'EB Garamond', serif;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.disclaimer-home{
+	font-size:14px;
+	font-family: 'NyCarlsbergDisplay-Bold';
+	font-weight:bold;
+	color:#006937;
+	line-height: normal;
+}
+
+.disclaimer{
+	font-size: 13px;
+	color: #ffffff;
+	font-weight:normal;
+	font-family: 'NyCarlsbergDisplay-Regular';
+}
+
+.dark-blue-tnc{
+	color: #2a4b92;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Futura-Medium', sans-serif;
+}
+
+.dark-blue-tnc:hover{
+	color: #162343;
+}
+
+.workshop-caption{
+	min-height: 110px;
+}
+
+.tnc p{
+	color:#000;
+}
+
+ul{
+	color: #000;
+    list-style-type: decimal;
+}
+
+.bg-blue{
+	background: #264484;
+}
+
+
+.image-desktop{
+	display: block;
+}
+
+.image-mobile{
+	display: none;
+}
+
+/*swal alert*/
+.swal2-icon.swal2-error{
+	border-color: red !important;
+    color: red !important;
+}
+
+.swal2-icon.swal2-error [class^=swal2-x-mark-line]{
+	background-color: red !important;
+}
+
+.swal2-popup{
+	border-radius: 0 !important;
+}
+
+.swal2-title{
+	font-family: 'NyCarlsbergDisplay-Bold';
+	font-size: 30px !important;
+	color: #006937 !important;
+	line-height: 32px !important;
+	display: block !important;
+	text-transform: uppercase !important;
+	font-weight: 500 !important;
+}
+
+.swal2-content{
+    font-size: 18px !important;
+    color: #000000 !important;
+    line-height: 1.2 !important;
+    display: block !important;
+    font-family: 'NyCarlsbergDisplay-Bold';
+    font-weight: 600 !important;
+}
+
+.swal2-actions .btn:focus-visible{
+	font-family: 'NyCarlsbergDisplay-Bold';
+	background-color: #006937;
+	border-color: transparent;
+	border-radius: 30px;
+	text-transform: uppercase;
+	color: #ffffff;
+	border:none;
+	padding: 10px 50px;
+}
+
+@media only screen and (min-width: 1440px){
+	.image-big{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+		.flower-left {
+			/* bottom: 20%; */
+			bottom: -40px;
+			left: -60px;
+			width: 20vw;
+		}
+		
+		.flower-right {
+			top: 30%;
+			right: -60px;
+			width: 20vw;
+		}
+
+		.footer-width {
+		    width: 56%;
+		}
+
+		.bg-form{
+			background-size:auto;
+		}
+
+		.hornbill {
+		    right: -10px;
+		    top: 11%; 
+		}
+
+}
+
+@media only screen and (max-width: 885px){
+		.beer img{
+			left: -150px;
+		}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.blue-hour-section{
+		width: 48%;
+	}
+
+	.workshop-section{
+		width: 33%;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	.image-big{
+		display: block;
+	}
+
+	.image-responsive{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.row>.icon-width{ 
+		width: 12%;
+	 }
+
+	 .row>.celebrate-width{
+	 		width: 76%;
+	 }
+
+	 .ml-0 {
+    	margin-left: 3px;
+		}
+
+	.ml-8 {
+    	margin-left: 14px;
+	}
+
+	.content-width {
+		/*width: 400px;
+		max-width: 100%;*/
+	}
+
+	.workshop-caption{
+		min-height: initial;
+	}
+
+	.beer img {
+	    left: -50px;
+	}
+
+	.footer-width {
+	    width: 89%;
+	}
+
+	.follow-width {
+	    /*width: 82%;
+	    padding-left: 20px;*/
+	}
+
+	.image-big{
+		display: none;
+	}
+
+	.image-responsive{
+		display: block;
+	}
+
+	#home.mt-neg40{
+		margin-top: 20px;
+	}
+
+	.bg-form{
+		background: url(/img/bg-form-responsive.jpg) center bottom no-repeat;
+		background-size: 100%;
+	}
+
+
+	.hornbill{
+	    right: -30px;
+		top: -7%;
+	}
+
+	.home-bottom.mt-neg200{
+		margin-top: -26vh;
+	}
+
+	.form-border {
+    	padding: 10% 11% 16% 11%;
+	}
+
+	.age-wrapper{
+		width: 90%;
+	}
+
+	.year-input{
+		height: 190px;
+	}
+
+	.pad-top40.joinus-section{
+		padding-top: 0;
+    	margin-top: -10px;
+	}
+
+	h1.main-title{
+		font-size: 7vw;
+	}
+
+	h2.subtitle, .first-letter, .celebrate-font{
+		font-size: 5vw;
+	}
+
+	.datenvenue{
+		font-size: 4.5vw;
+	}
+
+	.join-us, .btn, .carls-harvest, .venue{
+		font-size: 4vw;
+	}
+
+	.age-verify, .carlsberg, .time, .activity, .exciting-activities, sup{
+		font-size: 3vw;
+	}
+
+	.time{
+		margin-top: 10px;
+	}
+
+	.disclaimer-home, .disclaimer, .celebrate-responsibly{
+		font-size: 2.3vw;
+	}
+
+	.btn{
+		padding: 2vw 8vw;
+    	border-radius: 40px;
+	}
+
+	.time{
+		margin-top:0;
+	}
+
+	.greenwave-right {
+	    position: absolute;
+/*		left: 86.2%;*/
+	}
+
+	.greenwave-left {
+	    position: absolute;
+	    right: 92%;
+	}
+
+	.termsncondition{
+		font-size: 14px;
+	}
+
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px){
+	.footer-width {
+	    width: auto;
+	}
+
+	.beer img {
+	    left: -60px;
+	    width: 260px;
+	    bottom: 0px;
+	}
+
+	.age-wrapper{
+		max-width: 100%;
+	}
+
+	.register-text {
+	    font-size: 8vw;
+	}
+	.image-big{
+		display: none !important;
+	}
+
+	.age-wrapper{
+		width: auto;
+	}
+
+	.greenwave-right {
+	    position: absolute;
+/*	    left: 88.2%;*/
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	h1 {
+		font-size: 7.2vw;
+	}
+
+	.event-flower-left{
+    	top: 26%;
+    	left: 0;
+	}
+
+	 .event-flower-right{
+		top: -1%;
+    	right: 0;
+	 }
+
+	 .carousel-caption, .blue-caption{
+	 	padding: 0 30px;
+	 }
+
+	 /*.entertain{
+	 	margin-bottom: 40px;
+	 }*/
+	 
+	 .blue-hour-flower-left {
+		bottom: 3%;
+		left: 0;
+	}
+
+	.blue-hour-flower-right {
+	    top: 0;
+	    right: -20px;
+	}
+
+	.blue-hour-flower-left, .blue-hour-flower-right{
+		min-width: 80px;
+	}
+
+	/*.entertain{
+		padding: 0 30px;
+	}*/
+
+	 .flower-right {
+	    top: 20%;
+	}
+
+	.interested-left{
+		bottom: -20px;
+	}
+
+	/*.responsive-bg{
+		background:url(/img/mobile-bg.jpg) no-repeat center top;
+		background-size: 100%;
+	}*/
+
+	.beer img {
+	    left: -100px;
+	    bottom: 0;
+	}
+
+	.hashtag {
+	    font-size: 20px;
+	    line-height: 22px;
+	}
+
+	.beer img {
+    	left: -30px;
+    	width: 200px;
+	}
+
+	.hashtag{
+    	word-break:break-all;
+    }
+
+    .year-input {
+	    height: 12vh;
+	}
+
+	.hornbill {
+	    right: -17%;
+	    top: -4%;
+	}
+
+	#home.mt-neg40 {
+	    margin-top: 20px;
+	    margin-bottom: 30px;
+	}
+
+	.register-text {
+	    font-size: 8vw;
+	}
+
+	.registration{
+		font-size:3vw;
+	}
+
+	.greenwave-left {
+	    position: absolute;
+	    left: 0;
+	    top: 40%;
+	}
+
+	.greenwave-right{
+/*		left: 84.5%;*/
+		right: 0;	
+	    left: auto;
+	}
+
+	.greenwave-right img{
+		width: 17vw;
+	}
+
+	.image-desktop{
+		display: none;
+	}
+
+	.image-mobile{
+		display: block;
+	}
+}
+
+@media only screen and (max-width:425px){
+	.home-bottom.mt-neg200 {
+	    margin-top: -16vh;
+	}
+
+	.hornbill {
+	    right: -37vw;
+	    top: -4%;
+	}
+
+	.greenwave-right {
+/*		left: 80%;*/
+		top: 56%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.year-input {
+	    height: 11vh;
+	}
+
+	.hopeleaf{
+	    width: 12%;
+	}
+
+	.hornbill {
+	    right: -44%;
+	    top: -3%;
+	}
+
+	.home-bottom.mt-neg200 {
+	    margin-top: -14vh;
+	}
+
+	.greenwave-left {
+	    right: 91%;
+	}
+
+	.greenwave-right {
+/*	    left: 75vw;*/
+	}
+
+	.bg-thankyou{
+		overflow-y: hidden;
+	}
+}

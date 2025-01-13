@@ -1,0 +1,454 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+@font-face {
+	font-family: 'Aquire';
+	font-weight: normal;
+	src: url(/app-assets/fonts/aquire/fonts/AquireRegular.otf) format("opentype");
+}
+
+@font-face {
+	font-family: 'Aquire';
+	font-weight: bold;
+	src: url(/app-assets/fonts/aquire/fonts/AquireBold.otf) format("opentype");
+}
+
+@font-face {
+	font-family: 'Aquire';
+	font-weight: lighter;
+	src: url(/app-assets/fonts/aquire/fonts/AquireLight.otf) format("opentype");
+}
+  
+.login-background {
+	position: absolute;
+	bottom:0px;
+	left:0px;
+}
+
+.login-bg {
+	opacity: 0.8;
+    background: url('/app-assets/images/pages/login-bg.jpeg') no-repeat center left / cover;
+}
+
+.auth-wrapper.auth-v2, .auth-wrapper .auth-bg {
+    background: #eaedf3;
+	position:relative;
+}
+
+.auth-bg .matic-logo {
+	width: 200px;
+}
+
+.logo-wrapper {
+	background: #7d92b9 !important;
+}
+
+.auth-login-form .form-control {
+    height: 3.125rem;
+    border-radius: 1.25rem;
+}
+
+.auth-login-form .input-group-text {
+    border-radius: 1.25rem;
+}
+
+.auth-login-form a {
+	color:#e5ffa8;
+} 
+
+.auth-login-form a:hover {
+	color:#fff;
+}
+
+.btn-primary, .btn-primary:hover, .swal2-confirm {
+	border-color: #0d6efd !important;	
+    background-color: #0d6efd !important;
+	color:#fff !important;
+    border-radius: 1.25rem;
+}
+.btn-danger {
+	border-radius: 1.25rem;
+}
+
+.btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
+	border-color: #45baaf !important;
+	background-color: #45baaf !important;
+	box-shadow: 0 0 0 0.2rem rgba(255, 216, 118, 0.5);
+}
+  
+.btn-primary.disabled, .btn-primary:disabled {
+	color: #fff;
+	background-color: #45baaf;
+	border-color: #45baaf; 
+}
+  
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+	color: #fff;
+	border: 1px solid #45baaf; 
+}
+  
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.2rem rgba(3, 70, 75, 0.5); 
+}
+
+/* main menu */
+.main-menu .navbar-header {
+	padding-top: 20px;
+    background: #ffffff;
+    min-height: 225px;
+}
+
+.main-menu .matic-logo {
+	width: 200px;
+}
+
+.main-menu.menu-light .navigation {
+    background: #ffffff;
+}
+
+.main-menu.menu-light .navigation li a{
+	color:#284a41;
+}
+
+.main-menu.menu-light .navigation li a:hover, .main-menu.menu-light .navigation li a:active{
+	color:#284a41;
+}
+
+.main-menu .main-menu-content {
+    background: #ffffff;
+}
+
+/* top navbar*/
+.header-navbar.floating-nav {
+	background: #ffffff;
+	color: #284a41;
+}
+
+.header-navbar .navbar-container ul.navbar-nav li > a.nav-link {
+    color: #284a41;
+}
+
+.dashboard-bg {
+	background: url('/app-assets/images/pages/dashboard-bg.svg') #7d92b9 no-repeat bottom left;
+	min-height:250px;
+	border-radius: 1.25rem;
+}
+
+.package-shield {
+	background: url(/app-assets/images/pages/shield.svg) no-repeat center center / contain;
+    height: 80px;
+	width: 75px;
+	margin-right: 10px;
+    padding-top: 35px;
+    text-align: center;
+    color: #fff;
+	text-transform: uppercase;
+}
+
+.package-shield span {
+	font-family: Aquire;
+	font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.protection-status {	
+    color: #fff;
+}
+
+.protection-status span {
+	font-family: Aquire;
+	font-size: 2rem;
+	color:#76FFB0;
+	font-weight: bold;
+    line-height: 100%;
+}
+
+.dashboard-figure {
+	padding-top: 20px;
+    max-height: 250px;
+    color: #67fbe4;
+}
+
+.dashboard-figure h1 {
+	font-size: 2rem;
+	color:#e5ffa8;
+}
+
+.dashboard-members h1 {
+	font-size: 2rem;
+}
+
+.dashboard-members .border-right {
+	border-right:1px solid #ccc;
+}
+
+.dashboard-weekly-bonus {
+	text-align:center;
+}
+
+.dashboard-weekly-bonus .card-body {
+	background: #7d92b9;
+	border-radius: 1.25rem;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+
+.dashboard-weekly-bonus .card-title {
+	margin: 0.5rem;
+}
+
+.dashboard-weekly-bonus h1 {
+	color:#e5ffa8;
+}
+
+.dashboard-weekly-winner {
+	text-align:center;
+}
+
+.dashboard-weekly-winner .winning-prize {
+	font-family: Aquire;
+	color: #7d92b9;
+	font-size: 1.5rem;
+	margin-top: 5px;
+}
+
+.dashboard-weekly-winner .winner {
+	margin-bottom:15px;
+	color:#838383;
+}
+
+.dashboard-weekly-winner .badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 1.25rem;
+}
+
+.dashboard-weekly-winner .rank {
+	background:#e5ffa8;
+	border:1px solid #7d92b9;
+	color:#7d92b9;
+}
+
+/* General */
+.form-control {
+	border-radius:1.25rem;
+}
+
+.form-control:focus, .form-control:active {
+	border:1px solid #e5ffa8;
+}
+
+.input-group-prepend .input-group-text {
+    border-right: 0;
+    border-radius: 1.25rem;
+}
+
+a {
+    color: #284a41;
+}
+
+a:hover, a:active {
+	color:#44bbaf;
+}
+
+.badge-primary {
+	background-color: #44bbaf;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 1.25rem;
+}
+
+
+/* Customer Service*/
+.nav-tabs .nav-link:before {
+    color: #7d92b9;
+	background:rgba(255, 216, 118, 0.5); 
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+	background:#0d6efd;
+}
+
+.nav-tabs .nav-link:after,
+.nav-tabs .nav-link:hover {
+	background: #0d6efd;
+	color: #fff;
+}
+
+.nav-tabs .nav-link:after {
+	background: #0d6efd !important;
+}
+
+.nav-tabs.nav-justified .nav-item a.nav-link {
+    border-bottom: 1px solid #ccc;
+    margin: 0px 5px;
+}
+
+.main-menu.menu-light .navigation > li.active > a {
+	background: linear-gradient(118deg, #8bcb77, rgb(40 59 152));
+	box-shadow: 0 0 5px 1px rgb(34 72 160);
+}
+
+.main-menu.menu-light .navigation > li ul .active {
+	background: linear-gradient(118deg, #8bcb77, rgb(40 59 152));
+	box-shadow: 0 0 5px 1px rgb(34 72 160);
+}
+
+.btn-primary:hover:not(.disabled):not(:disabled) {
+	box-shadow: 0 8px 25px -8px #283b98; 
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #44bbaf;
+    background-color: #44bbaf;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before, .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+    box-shadow: 0 2px 4px 0 rgba(255, 216, 118, 0.5) !important;
+}
+
+.waves-button-input {
+	width: 100%;
+}
+
+.color-white {
+	color: #fff;
+}
+
+.dashboard-weekly-bonus .card-body {
+	padding: 0.5rem;
+}
+
+.dashboard-weekly-bonus .dashboard-weekly-bonus-title {
+	color: #000;
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin: 1.5rem;
+}
+
+.dashboard-member-counter h1,
+.dashboard-member-counter {
+	color: #7d92b9;
+}
+
+.font-bold {
+	font-weight: 700;
+}
+
+.pagination {
+	margin-top: 20px;	
+}
+
+.page-item.active .page-link {
+	background-color: #e5ffa8;
+	color: #7d92b9 !important;
+}
+
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+	border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+}
+
+.custom-file-input:lang(cn) ~ .custom-file-label::after {
+    content: "上载";
+}
+
+.dashboard-weekly-bonus .table th, 
+.dashboard-weekly-bonus .table td {
+	padding: 0.72rem 0.5rem;
+}
+
+.leaderboard-you {
+	color: white;
+	font-weight: 700;
+}
+
+.leaderboard-you td {
+	background: #44bbaf;
+}
+
+.leaderboard-you td:first-child {
+	border-radius: 5px 0 0 5px !important;
+}
+
+.leaderboard-you td:last-child {
+	border-radius: 0 5px 5px 0 !important;
+}
+
+.text-highlight {
+	color: #67fbe4
+}
+
+.jstree {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.jstree li {
+	padding: 5px 0;
+}
+
+.jstree li.jstree-last {
+	padding-bottom: 0;
+}
+
+.badge-package {
+	display: inline-block;
+	background-color: transparent;
+	border: 1px solid #44bbaf;
+	color: #44bbaf;
+	margin-right: 5px;
+	font-size: 90%;
+	padding: 4px 3px 3px;
+}
+
+.jstree-username {
+	color: #7d92b9;
+    font-weight: 500;
+}
+
+.jstree-policyno {
+	font-weight: normal;
+	color: #838383;
+	font-size: 80%;
+}
+
+.jstree-level {
+	font-size: 90%;
+    margin-right: 3px;
+}
+
+.header-user-area {
+	min-width: 120px;
+    justify-content: flex-end;
+}
+
+.content-width{
+	width: 28%;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+	.dashboard-bg {
+		background-image: none;
+	}
+}
+@media (max-width: 575.98px) {
+	html body .app-content {
+		padding-top: 130px !important;
+	}
+}
